@@ -1,0 +1,164 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 70px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    width: 85px;
+    height: 35px;
+    font-size: 15px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.column{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column1{
+    width: 350px;
+    margin: 20px;
+}
+.column2{
+    width: 200px;
+    margin: 20px;
+    margin-left: 0px;
+}
+
+/*USERCARD*/
+.usercard{
+    width: auto;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+.userheader{
+    background-color: teal;
+    height: 70px;
+    width: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.usercard main{
+    padding: 20px;
+    padding-top: 35px;
+    width: auto
+}
+#user{
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+#mapmarker{
+    width: 10px;
+    margin-right: 8px;
+}
+#gear{
+    width: 15px;
+    margin-right: 8px;
+}
+.usercard a{
+    color:royalblue;
+    font-size: 14px;
+}
+.usercard h2, h3{
+    font-weight: normal;
+}
+.usercard p{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.headerblack{
+    background-color: rgb(60, 61, 63);
+    color: white;
+    padding: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+/*EDUCATION*/
+.education{
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+.maineducation{
+    padding: 15px;
+}
+.maineducation > *{
+    margin-bottom: 5px;
+}
+
+/*REQUESTS*/
+.requests{
+    border: 2px solid gray;
+    border-radius: 2px;
+}
+.pics{
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-right:5px;
+}
+.circle{
+    width: 25px;
+    margin-left: 5px;
+}
+.names{
+    display: flex;
+    justify-content: space-between;
+}
+.mainrequests{
+    padding: 10px;
+}
+.column2 h3{
+    font-size: 16px;
+}
+
+/*REQUESTS*/
+.connections{
+    margin-top: 20px;
+    border: 2px solid gray;
+}
+.connections footer{
+    color: royalblue;
+    font-size: 14px;
+    border-top: 2px solid gray;
+    padding: 5px;
+}
+.connections footer a{
+    color: royalblue;
+    font-size: 14px;
+}

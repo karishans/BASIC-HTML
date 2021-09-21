@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../VS Code"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../JavaScript"
+		}
+	],
+	"settings": {}
+}

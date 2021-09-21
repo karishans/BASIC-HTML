@@ -1,0 +1,54 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-color: teal;
+    width: 544px;
+    height: 70px;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main{
+    width: 500px;
+    padding: 20px;
+    padding-top: 35px;
+    border: 2px solid gray;
+    border-top: none;
+}
+#user{
+    width: 70px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+#mapmarker{
+    width: 10px;
+    margin-right: 8px;
+}
+#gear{
+    width: 15px;
+    margin-right: 8px;
+}
+a{
+    color: royalblue;
+    font-size: 14px;
+}
+h2, h3{
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+}
